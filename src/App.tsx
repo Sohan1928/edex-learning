@@ -1,4 +1,5 @@
 import "./App.css";
+import Banner from "./components/home/banner/Banner";
 import Navbar from "./components/home/navbar/Navbar";
 
 function App() {
@@ -6,7 +7,10 @@ function App() {
     <section>
       {/* w-[1920px] */}
       <div className="mx-auto">
-        <Navbar></Navbar>
+        <div className="">
+          <Navbar></Navbar>
+          <Banner></Banner>
+        </div>
       </div>
     </section>
   );
