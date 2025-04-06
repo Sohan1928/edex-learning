@@ -1,6 +1,7 @@
 import "./App.css";
 import Banner from "./components/home/banner/Banner";
 import Navbar from "./components/home/navbar/Navbar";
+import MostPopularCourse from "./components/home/ourServices/mostPopularCourse/MostPopularCourse";
 
 function App() {
   return (
@@ -10,6 +11,7 @@ function App() {
         <div className="">
           <Navbar></Navbar>
           <Banner></Banner>
+          <MostPopularCourse></MostPopularCourse>
         </div>
       </div>
     </section>
