@@ -39,22 +39,25 @@ const Banner = () => {
           </p>
           <Input className="mt-4" placeholder="What do want to learn?"></Input>
         </div>
-        <div className="flex items-center">
+        <div className="flex relative items-center">
           <div className="relative">
             <FemaleSvg></FemaleSvg>
             <div className="absolute top-0 -left-16">
               <YellowStartSvg></YellowStartSvg>
             </div>
           </div>
-          <div className="relative">
-            <div className="z-50">
+          <div className="relative z-50">
+            <div className="">
               <MaleSvg></MaleSvg>
             </div>
-            <div className="absolute top-16 -right-24 z-0">
-              <YellowLineSvg></YellowLineSvg>
-            </div>
+          </div>
+          <div className="absolute top-16 -right-24 z-0">
+            <YellowLineSvg></YellowLineSvg>
           </div>
         </div>
+      </div>
+      <div className="absolute right-[470px]">
+        <VioletSvg></VioletSvg>
       </div>
     </section>
   );
