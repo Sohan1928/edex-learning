@@ -4,7 +4,7 @@ const Navbar = () => {
   return (
     <section className="md:px-28 pt-6 border-b-1 pb-4 border-gray-200">
       <div className="flex items-center justify-between">
-        <h2 className="italic font-bold text-5xl font-ptFont">
+        <h2 className="italic font-bold text-5xl ptFont">
           <span className="text-[#49bc8a]">e</span>
           <span className="text-[#ffc278]">Dex</span>
         </h2>
