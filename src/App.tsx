@@ -1,6 +1,7 @@
 import "./App.css";
 import Banner from "./components/home/banner/Banner";
 import Navbar from "./components/home/navbar/Navbar";
+import OurAchievement from "./components/home/ourAchievement/OurAchievement";
 import OurBestInstructor from "./components/home/ourServices/bestInstructor/OurBestInstructor";
 import MostPopularCategorys from "./components/home/ourServices/mostPopularCategorys/MostPopularCategorys";
 import MostPopularCourse from "./components/home/ourServices/mostPopularCourse/MostPopularCourse";
@@ -16,6 +17,7 @@ function App() {
           <MostPopularCourse></MostPopularCourse>
           <MostPopularCategorys></MostPopularCategorys>
           <OurBestInstructor></OurBestInstructor>
+          <OurAchievement></OurAchievement>
         </div>
       </div>
     </section>
