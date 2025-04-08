@@ -8,6 +8,27 @@
   font-family: "PT Serif", serif;
 }
 
+/* .slick-slide div {
+  margin: 10px;
+} */
+.slick-track {
+  display: flex !important;
+  gap: 10px; /* 10px gap between the slides */
+}
+
+.slick-prev::before {
+  color: #56b189 !important;
+  font-size: 25px !important;
+}
+.slick-next::before {
+  color: #56b189 !important;
+  font-size: 25px !important;
+}
+.slider-container {
+  width: 100%;
+  max-width: 700px; /* Or any desired width */
+}
+
 :root {
   --radius: 0.625rem;
   --background: oklch(1 0 0);
