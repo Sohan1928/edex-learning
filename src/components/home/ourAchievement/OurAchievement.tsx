@@ -2,10 +2,17 @@ import YellowLine from "./svg/YellowLine";
 import { PiGraduationCapThin } from "react-icons/pi";
 import { PiVideoCameraThin } from "react-icons/pi";
 import { PiUsersThreeThin } from "react-icons/pi";
+import SquareTransparent from "./svg/SquareTransparent";
+import SquareYellowSvg from "./svg/SquareYellowSvg";
+import FemaleSvg from "./svg/FemaleSvg";
+import BlueStarSvg from "./svg/BlueStarSvg";
+import RedCircle from "./svg/RedCircle";
+import GreenCircle from "./svg/GreenCircle";
+import YellowStarSvg from "./svg/YellowStarSvg";
 
 const OurAchievement = () => {
   return (
-    <section className="md:px-28 mt-16">
+    <section className="md:px-28 mt-16 mb-16">
       <div className="relative">
         <h2 className="text-4xl leading-14 font-semibold">
           Our <span className="text-[#49bc8a]">Achievement</span>
@@ -18,8 +25,8 @@ const OurAchievement = () => {
         </p>
       </div>
 
-      <section>
-        <div className="mt-8 grid grid-cols-2 gap-8">
+      <section className="flex items-center justify-between">
+        <div className="mt-8 grid grid-cols-2 gap-12">
           {/* graduation cap */}
           <div className="flex items-center gap-4">
             <div className="bg-[#ECF8F3] p-3 p-4] rounded-md">
@@ -59,6 +66,27 @@ const OurAchievement = () => {
               <span className="text-3xl font-semibold">1,00,000+</span> <br />
               <span className="opacity-60">User's</span>
             </h4>
+          </div>
+        </div>
+        <div className="relative">
+          <SquareTransparent></SquareTransparent>
+          <div className="absolute top-2 -left-2">
+            <SquareYellowSvg></SquareYellowSvg>
+          </div>
+          <div className="absolute -top-13.5 -left-1.5">
+            <FemaleSvg></FemaleSvg>
+          </div>
+          <div className="absolute bottom-4 -left-12.5">
+            <BlueStarSvg></BlueStarSvg>
+          </div>
+          <div className="absolute top-14 right-4">
+            <RedCircle></RedCircle>
+          </div>
+          <div className="absolute -top-8 right-20">
+            <GreenCircle></GreenCircle>
+          </div>
+          <div className="absolute -top-4 -right-8">
+            <YellowStarSvg></YellowStarSvg>
           </div>
         </div>
       </section>
