@@ -30,7 +30,7 @@ const MostPopularCategorys = () => {
       </div>
       <div className="mt-8 grid grid-cols-4 gap-5">
         {/* 1st */}
-        <div className="flex items-center border-2 justify-between p-3 rounded-md shadow-sm hover:border-[#49bc8a] ">
+        <div className="flex items-center border justify-between p-3 rounded-md shadow-sm hover:border-[#49bc8a] hover:border-1">
           <span className="flex items-center gap-2">
             <LiaPenNibSolid className="text-3xl"></LiaPenNibSolid>
             <h5 className="font-medium">Design</h5>
@@ -38,7 +38,7 @@ const MostPopularCategorys = () => {
           <GoArrowUpRight className="text-2xl text-[#49bc8a] hover:bg-[#49bc8a] hover:text-white hover:rounded-sm"></GoArrowUpRight>
         </div>
         {/* 2nd */}
-        <div className="flex items-center border-2 justify-between p-3 rounded-md shadow-sm hover:border-[#49bc8a]">
+        <div className="flex items-center border justify-between p-3 rounded-md shadow-sm hover:border-[#49bc8a] hover:border-1">
           <span className="flex items-center gap-2">
             <PiFileHtmlThin className="text-3xl"></PiFileHtmlThin>
             <h5 className="font-medium">Development</h5>
@@ -46,7 +46,7 @@ const MostPopularCategorys = () => {
           <GoArrowUpRight className="text-2xl text-[#49bc8a] hover:bg-[#49bc8a] hover:text-white hover:rounded-sm"></GoArrowUpRight>
         </div>
         {/* 3rd */}
-        <div className="flex items-center border-2 justify-between p-3 rounded-md shadow-sm hover:border-[#49bc8a]">
+        <div className="flex items-center border justify-between p-3 rounded-md shadow-sm hover:border-[#49bc8a] hover:border-1">
           <span className="flex items-center gap-2">
             <PiMicrophoneStageThin className="text-3xl"></PiMicrophoneStageThin>
             <h5 className="font-medium">Marketing</h5>
@@ -54,7 +54,7 @@ const MostPopularCategorys = () => {
           <GoArrowUpRight className="text-2xl text-[#49bc8a] hover:bg-[#49bc8a] hover:text-white hover:rounded-sm"></GoArrowUpRight>
         </div>
         {/* 4th */}
-        <div className="flex items-center border-2 justify-between p-3 rounded-md shadow-sm hover:border-[#49bc8a]">
+        <div className="flex items-center border justify-between p-3 rounded-md shadow-sm hover:border-[#49bc8a] hover:border-1">
           <span className="flex items-center gap-2">
             <BsBagCheck className="text-3xl"></BsBagCheck>
             <h5 className="font-medium">Business</h5>
@@ -62,7 +62,7 @@ const MostPopularCategorys = () => {
           <GoArrowUpRight className="text-2xl text-[#49bc8a] hover:bg-[#49bc8a] hover:text-white hover:rounded-sm"></GoArrowUpRight>
         </div>
         {/* 5th */}
-        <div className="flex items-center border-2 justify-between p-3 rounded-md shadow-sm hover:border-[#49bc8a]">
+        <div className="flex items-center border justify-between p-3 rounded-md shadow-sm hover:border-[#49bc8a] hover:border-1">
           <span className="flex items-center gap-2">
             <PiSunHorizonThin className="text-3xl"></PiSunHorizonThin>
             <h5 className="font-medium">Life Style</h5>
@@ -70,7 +70,7 @@ const MostPopularCategorys = () => {
           <GoArrowUpRight className="text-2xl text-[#49bc8a] hover:bg-[#49bc8a] hover:text-white hover:rounded-sm"></GoArrowUpRight>
         </div>
         {/* 6th */}
-        <div className="flex items-center border-2 justify-between p-3 rounded-md shadow-sm hover:border-[#49bc8a]">
+        <div className="flex items-center border justify-between p-3 rounded-md shadow-sm hover:border-[#49bc8a] hover:border-1">
           <span className="flex items-center gap-2">
             <CiCamera className="text-3xl"></CiCamera>
             <h5 className="font-medium">Photography</h5>
@@ -78,7 +78,7 @@ const MostPopularCategorys = () => {
           <GoArrowUpRight className="text-2xl text-[#49bc8a] hover:bg-[#49bc8a] hover:text-white hover:rounded-sm"></GoArrowUpRight>
         </div>
         {/* 7th */}
-        <div className="flex items-center border-2 justify-between p-3 rounded-md shadow-sm hover:border-[#49bc8a]">
+        <div className="flex items-center border justify-between p-3 rounded-md shadow-sm hover:border-[#49bc8a] hover:border-1">
           <span className="flex items-center gap-2">
             <PiMusicNoteThin className="text-3xl"></PiMusicNoteThin>
             <h5 className="font-medium">Music</h5>
@@ -86,7 +86,7 @@ const MostPopularCategorys = () => {
           <GoArrowUpRight className="text-2xl text-[#49bc8a] hover:bg-[#49bc8a] hover:text-white hover:rounded-sm"></GoArrowUpRight>
         </div>
         {/* 8th */}
-        <div className="flex items-center border-2 justify-between p-3 rounded-md shadow-sm hover:border-[#49bc8a]">
+        <div className="flex items-center border justify-between p-3 rounded-md shadow-sm hover:border-[#49bc8a] hover:border-1">
           <span className="flex items-center gap-2">
             <PiDatabaseLight className="text-3xl"></PiDatabaseLight>
             <h5 className="font-medium">Data Science</h5>
@@ -94,7 +94,7 @@ const MostPopularCategorys = () => {
           <GoArrowUpRight className="text-2xl text-[#49bc8a] hover:bg-[#49bc8a] hover:text-white hover:rounded-sm"></GoArrowUpRight>
         </div>
         {/* 9th */}
-        <div className="flex items-center border-2 justify-between p-3 rounded-md shadow-sm hover:border-[#49bc8a]">
+        <div className="flex items-center border justify-between p-3 rounded-md shadow-sm hover:border-[#49bc8a] hover:border-1">
           <span className="flex items-center gap-2">
             <PiLightbulbLight className="text-3xl"></PiLightbulbLight>
             <h5 className="font-medium">Personal Develop</h5>
@@ -102,7 +102,7 @@ const MostPopularCategorys = () => {
           <GoArrowUpRight className="text-2xl text-[#49bc8a] hover:bg-[#49bc8a] hover:text-white hover:rounded-sm"></GoArrowUpRight>
         </div>
         {/* 10th */}
-        <div className="flex items-center border-2 justify-between p-3 rounded-md shadow-sm hover:border-[#49bc8a]">
+        <div className="flex items-center border justify-between p-3 rounded-md shadow-sm hover:border-[#49bc8a] hover:border-1">
           <span className="flex items-center gap-2">
             <PiHeartbeatThin className="text-3xl"></PiHeartbeatThin>
             <h5 className="font-medium">Helth & Fitness</h5>
@@ -110,7 +110,7 @@ const MostPopularCategorys = () => {
           <GoArrowUpRight className="text-2xl text-[#49bc8a] hover:bg-[#49bc8a] hover:text-white hover:rounded-sm"></GoArrowUpRight>
         </div>
         {/* 11th */}
-        <div className="flex items-center border-2 justify-between p-3 rounded-md shadow-sm hover:border-[#49bc8a]">
+        <div className="flex items-center border justify-between p-3 rounded-md shadow-sm hover:border-[#49bc8a] hover:border-1">
           <span className="flex items-center gap-2">
             <PiGraphLight className="text-3xl"></PiGraphLight>
             <h5 className="font-medium">Finance</h5>
@@ -118,7 +118,7 @@ const MostPopularCategorys = () => {
           <GoArrowUpRight className="text-2xl text-[#49bc8a] hover:bg-[#49bc8a] hover:text-white hover:rounded-sm"></GoArrowUpRight>
         </div>
         {/* 12th */}
-        <div className="flex items-center border-2 justify-between p-3 rounded-md shadow-sm hover:border-[#49bc8a]">
+        <div className="flex items-center border justify-between p-3 rounded-md shadow-sm hover:border-[#49bc8a] hover:border-1">
           <span className="flex items-center gap-2">
             <PiDetectiveThin className="text-3xl"></PiDetectiveThin>
             <h5 className="font-medium">Teaching</h5>
