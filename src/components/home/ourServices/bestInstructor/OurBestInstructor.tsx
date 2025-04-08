@@ -13,7 +13,7 @@ const OurBestInstructor = () => {
           Our <span className="text-[#49bc8a]">Best</span>
           <span className="text-[#49bc8a]"> Instructor</span>
         </h2>
-        <div className="absolute left-38 top-13">
+        <div className="absolute left-38 top-12">
           <YellowLineSvg></YellowLineSvg>
         </div>
         <p className="mt-2 opacity-70">

@@ -12,12 +12,12 @@ import YellowStarSvg from "./svg/YellowStarSvg";
 
 const OurAchievement = () => {
   return (
-    <section className="md:px-28 mt-16 mb-16">
+    <section className="md:px-28 mt-16">
       <div className="relative">
         <h2 className="text-4xl leading-14 font-semibold">
           Our <span className="text-[#49bc8a]">Achievement</span>
         </h2>
-        <div className="absolute left-18 top-13">
+        <div className="absolute left-18 top-12">
           <YellowLine></YellowLine>
         </div>
         <p className="mt-2 opacity-70">

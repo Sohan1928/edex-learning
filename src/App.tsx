@@ -5,6 +5,7 @@ import OurAchievement from "./components/home/ourAchievement/OurAchievement";
 import OurBestInstructor from "./components/home/ourServices/bestInstructor/OurBestInstructor";
 import MostPopularCategorys from "./components/home/ourServices/mostPopularCategorys/MostPopularCategorys";
 import MostPopularCourse from "./components/home/ourServices/mostPopularCourse/MostPopularCourse";
+import StudentFeedback from "./components/home/studentFeedback/StudentFeedback";
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
           <MostPopularCategorys></MostPopularCategorys>
           <OurBestInstructor></OurBestInstructor>
           <OurAchievement></OurAchievement>
+          <StudentFeedback></StudentFeedback>
         </div>
       </div>
     </section>
