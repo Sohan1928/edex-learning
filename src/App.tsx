@@ -1,5 +1,6 @@
 import "./App.css";
 import Banner from "./components/home/banner/Banner";
+import LearningPlatforms from "./components/home/learningPlatforms/LearningPlatforms";
 import Navbar from "./components/home/navbar/Navbar";
 import OurAchievement from "./components/home/ourAchievement/OurAchievement";
 import OurBestInstructor from "./components/home/ourServices/bestInstructor/OurBestInstructor";
@@ -20,6 +21,7 @@ function App() {
           <OurBestInstructor></OurBestInstructor>
           <OurAchievement></OurAchievement>
           <StudentFeedback></StudentFeedback>
+          <LearningPlatforms></LearningPlatforms>
         </div>
       </div>
     </section>
