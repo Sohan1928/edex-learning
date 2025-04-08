@@ -1,5 +1,6 @@
 import "./App.css";
 import Banner from "./components/home/banner/Banner";
+import Footer from "./components/home/footer/Footer";
 import LearningPlatforms from "./components/home/learningPlatforms/LearningPlatforms";
 import Navbar from "./components/home/navbar/Navbar";
 import OurAchievement from "./components/home/ourAchievement/OurAchievement";
@@ -22,6 +23,7 @@ function App() {
           <OurAchievement></OurAchievement>
           <StudentFeedback></StudentFeedback>
           <LearningPlatforms></LearningPlatforms>
+          <Footer></Footer>
         </div>
       </div>
     </section>
