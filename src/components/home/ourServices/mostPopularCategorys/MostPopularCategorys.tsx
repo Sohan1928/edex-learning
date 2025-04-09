@@ -30,6 +30,7 @@ const MostPopularCategorys = () => {
       </div>
       <div className="mt-8 grid grid-cols-4 gap-5">
         {/* 1st */}
+
         <div className="flex items-center border justify-between p-3 rounded-md shadow-sm hover:border-[#49bc8a] hover:border-1">
           <span className="flex items-center gap-2">
             <LiaPenNibSolid className="text-3xl"></LiaPenNibSolid>
