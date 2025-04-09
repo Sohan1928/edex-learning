@@ -73,7 +73,7 @@ const SliderCart = () => {
   };
   return (
     <section>
-      <div className="relative slider-container">
+      <div className="relative slider-container max-w-[700px]">
         <Slider className="" {...settings}>
           {data.map((item, index) => (
             <div

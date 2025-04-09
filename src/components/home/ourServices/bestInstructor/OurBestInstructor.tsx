@@ -1,9 +1,5 @@
-import PaginationSvg from "../mostPopularCourse/svg/PaginationSvg";
 import YellowLineSvg from "../mostPopularCourse/svg/YellowLineSvg";
-import Cart1 from "./svg/Cart1";
-import Cart2 from "./svg/Cart2";
-import Cart3 from "./svg/Cart3";
-import Cart4 from "./svg/Cart4";
+import InstructorSlideCart from "./InstructorSlideCart";
 
 const OurBestInstructor = () => {
   return (
@@ -20,14 +16,8 @@ const OurBestInstructor = () => {
           Various versions have evolved over the years, sometimes by accident.
         </p>
       </div>
-      <section className="relative flex items-center gap-4 mt-8">
-        <Cart1></Cart1>
-        <Cart2></Cart2>
-        <Cart3></Cart3>
-        <Cart4></Cart4>
-        <div className="absolute right-10 -bottom-10">
-          <PaginationSvg></PaginationSvg>
-        </div>
+      <section className="mt-8">
+        <InstructorSlideCart></InstructorSlideCart>
       </section>
     </section>
   );
