@@ -35,6 +35,26 @@ const OurAchievement = () => {
         // markers: true,
       },
     });
+    gsap.from(
+      "#achievementCap, #achievementVideo, #achievementStudent, #achievementUser",
+      {
+        y: 120,
+        x: -180,
+        opacity: 0,
+        duration: 0.8,
+        delay: 0.2,
+        scale: 0.9,
+        ease: "power1.out",
+        stagger: 0.2,
+        scrollTrigger: {
+          trigger: "#achievementContentContainer",
+          start: "top 40%",
+          end: "top 20%",
+          toggleActions: "play none none reverse",
+          markers: true,
+        },
+      }
+    );
   });
 
   return (
@@ -54,10 +74,13 @@ const OurAchievement = () => {
         </p>
       </div>
 
-      <section className="flex items-center justify-between">
+      <section
+        id="achievementContentContainer"
+        className="flex items-center justify-between"
+      >
         <div className="mt-8 grid grid-cols-2 gap-12">
           {/* graduation cap */}
-          <div className="flex items-center gap-4">
+          <div id="achievementCap" className="flex items-center gap-4">
             <div className="bg-[#ECF8F3] p-3 p-4] rounded-md">
               <PiGraduationCapThin className="text-[#448E6D] text-3xl"></PiGraduationCapThin>
             </div>
@@ -67,7 +90,7 @@ const OurAchievement = () => {
             </h4>
           </div>
           {/* video */}
-          <div className="flex items-center gap-4">
+          <div id="achievementVideo" className="flex items-center gap-4">
             <div className="bg-[#FEFAF6] p-3 p-4] rounded-md">
               <PiVideoCameraThin className="text-[#F6C485] text-3xl"></PiVideoCameraThin>
             </div>
@@ -77,7 +100,7 @@ const OurAchievement = () => {
             </h4>
           </div>
           {/* student */}
-          <div className="flex items-center gap-4">
+          <div id="achievementStudent" className="flex items-center gap-4">
             <div className="bg-[#FCEFF0] p-3 p-4] rounded-md">
               <PiGraduationCapThin className="text-[#DB525D] text-3xl"></PiGraduationCapThin>
             </div>
@@ -87,7 +110,7 @@ const OurAchievement = () => {
             </h4>
           </div>
           {/* user's */}
-          <div className="flex items-center gap-4">
+          <div id="achievementUser" className="flex items-center gap-4">
             <div className="bg-[#F1F7FE] p-3 p-4] rounded-md">
               <PiUsersThreeThin className="text-[#3273F4] text-3xl"></PiUsersThreeThin>
             </div>
