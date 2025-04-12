@@ -69,6 +69,47 @@ const Footer = () => {
         toggleActions: "play none none reverse",
       },
     });
+    gsap.from("#exploreIcon", {
+      y: 120,
+      opacity: 0,
+      duration: 1.6,
+      delay: 0.4,
+      ease: "back.out",
+      stagger: 0.2,
+      scrollTrigger: {
+        trigger: "#footerContainer",
+        start: "top 62%",
+        end: "top 30%",
+        toggleActions: "play none none reverse",
+      },
+    });
+    gsap.from("#footerLoremText", {
+      x: 120,
+      opacity: 0,
+      duration: 1.6,
+      delay: 0.4,
+      ease: "back.out",
+      stagger: 0.2,
+      scrollTrigger: {
+        trigger: "#footerContainer",
+        start: "top 62%",
+        end: "top 30%",
+        toggleActions: "play none none reverse",
+      },
+    });
+    gsap.from("#footerSubscribeBtn", {
+      y: 120,
+      opacity: 0,
+      duration: 1.6,
+      delay: 0.4,
+      ease: "back.out",
+      scrollTrigger: {
+        trigger: "#footerContainer",
+        start: "top 62%",
+        end: "top 30%",
+        toggleActions: "play none none reverse",
+      },
+    });
   });
   return (
     <section id="footerContainer" className="md:px-28 my-16">
@@ -137,7 +178,7 @@ const Footer = () => {
           <h3 id="footerHeading" className="text-xl font-medium mb-5">
             Explore
           </h3>
-          <span className="flex flex-col space-y-2 opacity-60">
+          <span id="exploreIcon" className="flex flex-col space-y-2 opacity-60">
             <a>Home</a>
             <a>About</a>
             <a>Course</a>
@@ -150,7 +191,7 @@ const Footer = () => {
           <h3 id="footerHeading" className="text-xl font-medium mb-5 pt-17">
             Category
           </h3>
-          <span className="flex flex-col space-y-2 opacity-60">
+          <span id="exploreIcon" className="flex flex-col space-y-2 opacity-60">
             <a>Design</a>
             <a>Development</a>
             <a>Marketing</a>
@@ -165,11 +206,11 @@ const Footer = () => {
           <h3 id="footerHeading" className="text-xl font-medium mb-5 pt-12">
             Subscribe
           </h3>
-          <p className="opacity-60">
+          <p id="footerLoremText" className="opacity-60">
             Lorem Ipsum has been them <br /> an industry printer took <br /> a
             galley make book.
           </p>
-          <div className="mt-5 bg-[#F3F4F5] rounded-sm">
+          <div id="footerLoremText" className="mt-5 bg-[#F3F4F5] rounded-sm">
             <input
               className="px-3 py-3"
               type="email"
@@ -178,7 +219,10 @@ const Footer = () => {
               placeholder="Email here"
             />
           </div>
-          <button className="bg-[#56B189] mt-4 text-white px-4 py-2 rounded-md hover:cursor-pointer text-[14px] font-normal">
+          <button
+            id="footerSubscribeBtn"
+            className="bg-[#56B189] mt-4 text-white px-4 py-2 rounded-md hover:cursor-pointer text-[14px] font-normal"
+          >
             Subscribe Now
           </button>
         </div>
