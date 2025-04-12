@@ -13,7 +13,7 @@ function App() {
   return (
     <section>
       {/* w-[1920px] */}
-      <div className="mx-auto">
+      <div className="mx-auto overflow-hidden">
         <div className="">
           <Navbar></Navbar>
           <Banner></Banner>

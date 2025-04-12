@@ -51,10 +51,75 @@ const OurAchievement = () => {
           start: "top 40%",
           end: "top 20%",
           toggleActions: "play none none reverse",
-          markers: true,
+          // markers: true,
         },
       }
     );
+    gsap.from("#greenTransparentBox", {
+      y: 120,
+      x: -180,
+      opacity: 0,
+      duration: 0.8,
+      delay: 0.2,
+      scale: 0.9,
+      ease: "power1.out",
+      stagger: 0.2,
+      scrollTrigger: {
+        trigger: "#achievementContainer",
+        start: "top 60%",
+        end: "top 20%",
+        toggleActions: "play none none reverse",
+        // markers: true,
+      },
+    });
+    gsap.from("#yellowBox", {
+      y: -120,
+      x: 180,
+      opacity: 0,
+      duration: 0.8,
+      delay: 0.2,
+      scale: 0.9,
+      ease: "power1.out",
+      stagger: 0.2,
+      scrollTrigger: {
+        trigger: "#achievementContainer",
+        start: "top 60%",
+        end: "top 20%",
+        toggleActions: "play none none reverse",
+        // markers: true,
+      },
+    });
+    gsap.from("#femaleSvgCart", {
+      x: 280,
+      opacity: 0,
+      duration: 1.2,
+      delay: 0.2,
+      scale: 0.9,
+      ease: "power1.out",
+      stagger: 0.2,
+      scrollTrigger: {
+        trigger: "#achievementContainer",
+        start: "top 60%",
+        end: "top 20%",
+        toggleActions: "play none none reverse",
+        // markers: true,
+      },
+    });
+    gsap.from("#blueStar, #redCircle, #greenCircle, #yellowStar", {
+      opacity: 0,
+      duration: 1.4,
+      delay: 0.2,
+      scale: 2,
+      ease: "power1.out",
+      stagger: 0.3,
+      scrollTrigger: {
+        trigger: "#achievementContainer",
+        start: "top 40%",
+        end: "top 20%",
+        toggleActions: "play none none reverse",
+        // markers: true,
+      },
+    });
   });
 
   return (
@@ -121,23 +186,25 @@ const OurAchievement = () => {
           </div>
         </div>
         <div className="relative">
-          <SquareTransparent></SquareTransparent>
-          <div className="absolute top-2 -left-2">
+          <div id="greenTransparentBox">
+            <SquareTransparent></SquareTransparent>
+          </div>
+          <div id="yellowBox" className="absolute top-2 -left-2">
             <SquareYellowSvg></SquareYellowSvg>
           </div>
-          <div className="absolute -top-13.5 -left-1.5">
+          <div id="femaleSvgCart" className="absolute -top-13.5 -left-1.5">
             <FemaleSvg></FemaleSvg>
           </div>
-          <div className="absolute bottom-4 -left-12.5">
+          <div id="blueStar" className="absolute bottom-4 -left-12.5">
             <BlueStarSvg></BlueStarSvg>
           </div>
-          <div className="absolute top-14 right-4">
+          <div id="redCircle" className="absolute top-14 right-4">
             <RedCircle></RedCircle>
           </div>
-          <div className="absolute -top-8 right-20">
+          <div id="greenCircle" className="absolute -top-8 right-20">
             <GreenCircle></GreenCircle>
           </div>
-          <div className="absolute -top-4 -right-8">
+          <div id="yellowStar" className="absolute -top-4 -right-8">
             <YellowStarSvg></YellowStarSvg>
           </div>
         </div>

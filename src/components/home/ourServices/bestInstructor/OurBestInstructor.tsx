@@ -37,7 +37,7 @@ const OurBestInstructor = () => {
         start: "top 40%",
         end: "top 20%",
         toggleActions: "play none none reverse",
-        markers: true,
+        // markers: true,
       },
     });
   });
