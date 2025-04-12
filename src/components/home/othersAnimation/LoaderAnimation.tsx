@@ -22,6 +22,8 @@ const LoaderAnimation = () => {
 
     tl.to("#loader", {
       opacity: 0,
+      display: "none", // Add this line
+      duration: 0.5,
     });
   });
   return (

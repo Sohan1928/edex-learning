@@ -17,7 +17,7 @@ const Banner = () => {
     gsap.from("#starSvg", {
       opacity: 0,
       duration: 1,
-      delay: 1,
+      delay: 2.6,
       ease: "power2.in",
       scale: 2.8,
       stagger: 0.6,
@@ -25,7 +25,7 @@ const Banner = () => {
     gsap.from("#textStart", {
       opacity: 0,
       duration: 0.8,
-      delay: 0.4,
+      delay: 2.6,
       scale: 1.8,
       ease: "back.out",
     });
@@ -33,10 +33,10 @@ const Banner = () => {
       x: -60,
       opacity: 0,
       duration: 0.8,
-      delay: 0.6,
+      delay: 2.9,
       scale: 1.4,
       ease: "back.out",
-      stagger: 0.2,
+      stagger: 0.6,
     });
     gsap.from("#tick1", {
       y: 60,
@@ -44,14 +44,14 @@ const Banner = () => {
       opacity: 0,
       duration: 1.8,
       sclae: 1.4,
-      delay: 0.6,
+      delay: 2.6,
       stagger: 0.6,
     });
     gsap.from("#imgCart", {
       x: 150,
       opacity: 0,
       duration: 1,
-      delay: 0.6,
+      delay: 2.6,
       scale: 0.4,
       stagger: 0.4,
       ease: "power1.out",
@@ -60,7 +60,7 @@ const Banner = () => {
       x: 160,
       opacity: 0,
       duration: 1.8,
-      delay: 1,
+      delay: 2.6,
       scale: 0.2,
       ease: "power2.out",
     });

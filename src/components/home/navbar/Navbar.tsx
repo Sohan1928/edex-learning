@@ -14,7 +14,7 @@ const Navbar = () => {
       stagger: 0.2,
       duration: 1.2,
       ease: "back.out",
-      delay: 0.2,
+      delay: 2.2,
       scrollTrigger: {
         trigger: "#navContainer",
         start: "top 100%",
@@ -26,19 +26,20 @@ const Navbar = () => {
       y: -40,
       duration: 0.2,
       opacity: 0,
-      delay: 0.1,
+      delay: 2.6,
       ease: "bounce",
     });
     tl.from("#signUpBtn", {
       y: -40,
       duration: 0.2,
       opacity: 0,
-      delay: 0.1,
+      delay: 0.6,
       ease: "bounce",
     });
     gsap.from(".nav-link", {
       y: -40,
       opacity: 0,
+      delay: 2.2,
       duration: 0.8,
       stagger: 0.2,
       ease: "bounce",
