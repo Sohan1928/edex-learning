@@ -24,18 +24,49 @@ const Footer = () => {
         trigger: "#footerContainer",
         start: "top 62%",
         end: "top 30%",
+        toggleActions: "play none none reverse",
       },
     });
     gsap.from("#footerHeading", {
       y: -80,
       opacity: 0,
-      duration: 0.6,
+      duration: 1.2,
       delay: 0.4,
+      ease: "back.out",
       stagger: 0.2,
       scrollTrigger: {
         trigger: "#footerContainer",
         start: "top 62%",
         end: "top 30%",
+        toggleActions: "play none none reverse",
+      },
+    });
+    gsap.from("#footerContactText", {
+      x: -120,
+      opacity: 0,
+      duration: 1.6,
+      delay: 0.4,
+      ease: "back.out",
+      stagger: 0.2,
+      scrollTrigger: {
+        trigger: "#footerContainer",
+        start: "top 62%",
+        end: "top 30%",
+        toggleActions: "play none none reverse",
+      },
+    });
+    gsap.from("#footerIcon", {
+      y: 120,
+      opacity: 0,
+      duration: 1.6,
+      delay: 0.4,
+      ease: "back.out",
+      stagger: 0.2,
+      scrollTrigger: {
+        trigger: "#footerContainer",
+        start: "top 62%",
+        end: "top 30%",
+        toggleActions: "play none none reverse",
       },
     });
   });
@@ -58,26 +89,45 @@ const Footer = () => {
           <h4 id="footerHeading" className="text-xl font-medium mb-3">
             Contact Us
           </h4>
-          <h6 className="opacity-60 mb-1">Call:+123 400 123</h6>
-          <p className="opacity-60 mb-3">
-            Praesent nulla massa, hendrerit <br /> vestibulum gravida in,
-            feugiat auctor felis.
-          </p>
-          <p>Email:example@gmail.com</p>
+          <div id="">
+            <h6 id="footerContactText" className="opacity-60 mb-1">
+              Call:+123 400 123
+            </h6>
+            <p id="footerContactText" className="opacity-60 mb-3">
+              Praesent nulla massa, hendrerit <br /> vestibulum gravida in,
+              feugiat auctor felis.
+            </p>
+            <p id="footerContactText">Email:example@gmail.com</p>
+          </div>
           <div className="flex items-center gap-3 mt-3">
-            <h4 className="bg-[#ECF8F3] text-[#6FC0A0] text-2xl p-2 rounded-sm">
+            <h4
+              id="footerIcon"
+              className="bg-[#ECF8F3] hover:cursor-pointer text-[#6FC0A0] text-2xl p-2 rounded-sm"
+            >
               <LiaFacebookF></LiaFacebookF>
             </h4>
-            <h4 className="bg-[#ECF8F3] text-[#6FC0A0] text-2xl p-2 rounded-sm">
+            <h4
+              id="footerIcon"
+              className="bg-[#ECF8F3] text-[#6FC0A0] hover:cursor-pointer text-2xl p-2 rounded-sm"
+            >
               <SlSocialDribbble></SlSocialDribbble>
             </h4>
-            <h4 className="bg-[#ECF8F3] text-[#6FC0A0] text-2xl p-2 rounded-sm">
+            <h4
+              id="footerIcon"
+              className="bg-[#ECF8F3] text-[#6FC0A0] text-2xl p-2 hover:cursor-pointer rounded-sm"
+            >
               <FaLinkedinIn></FaLinkedinIn>
             </h4>
-            <h4 className="bg-[#ECF8F3] text-[#6FC0A0] text-2xl p-2 rounded-sm">
+            <h4
+              id="footerIcon"
+              className="bg-[#ECF8F3] text-[#6FC0A0] text-2xl p-2 rounded-sm hover:cursor-pointer"
+            >
               <FaInstagram></FaInstagram>
             </h4>
-            <h4 className="bg-[#ECF8F3] text-[#6FC0A0] text-2xl p-2 rounded-sm">
+            <h4
+              id="footerIcon"
+              className="bg-[#ECF8F3] text-[#6FC0A0] hover:cursor-pointer text-2xl p-2 rounded-sm"
+            >
               <FaBehance></FaBehance>
             </h4>
           </div>
