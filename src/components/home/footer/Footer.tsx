@@ -22,7 +22,7 @@ const Footer = () => {
       delay: 0.2,
       scrollTrigger: {
         trigger: "#footerContainer",
-        start: "top 62%",
+        start: "top 82%",
         end: "top 30%",
         toggleActions: "play none none reverse",
       },
@@ -36,7 +36,7 @@ const Footer = () => {
       stagger: 0.2,
       scrollTrigger: {
         trigger: "#footerContainer",
-        start: "top 62%",
+        start: "top 82%",
         end: "top 30%",
         toggleActions: "play none none reverse",
       },
@@ -50,7 +50,7 @@ const Footer = () => {
       stagger: 0.2,
       scrollTrigger: {
         trigger: "#footerContainer",
-        start: "top 62%",
+        start: "top 82%",
         end: "top 30%",
         toggleActions: "play none none reverse",
       },
@@ -64,7 +64,7 @@ const Footer = () => {
       stagger: 0.2,
       scrollTrigger: {
         trigger: "#footerContainer",
-        start: "top 62%",
+        start: "top 82%",
         end: "top 30%",
         toggleActions: "play none none reverse",
       },
@@ -78,7 +78,7 @@ const Footer = () => {
       stagger: 0.2,
       scrollTrigger: {
         trigger: "#footerContainer",
-        start: "top 62%",
+        start: "top 82%",
         end: "top 30%",
         toggleActions: "play none none reverse",
       },
@@ -92,7 +92,7 @@ const Footer = () => {
       stagger: 0.2,
       scrollTrigger: {
         trigger: "#footerContainer",
-        start: "top 62%",
+        start: "top 82%",
         end: "top 30%",
         toggleActions: "play none none reverse",
       },
@@ -105,7 +105,7 @@ const Footer = () => {
       ease: "back.out",
       scrollTrigger: {
         trigger: "#footerContainer",
-        start: "top 62%",
+        start: "top 82%",
         end: "top 30%",
         toggleActions: "play none none reverse",
       },

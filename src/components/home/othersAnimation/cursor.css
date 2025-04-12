@@ -1,7 +1,7 @@
 #cursor {
   height: 4vw;
   width: 4vw;
-  background-color: #ff8b6d;
+  background-color: rgb(255, 140, 111);
   border-radius: 50%;
   position: fixed;
   z-index: 0;
