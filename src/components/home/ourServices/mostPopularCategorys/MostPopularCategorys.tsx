@@ -32,7 +32,7 @@ const MostPopularCategorys = () => {
       stagger: 0.2,
       scrollTrigger: {
         trigger: "#mostPopulaCategorysContainer",
-        start: "top 70%",
+        start: "top 60%",
         end: "top 20%",
         toggleActions: "play none none reverse",
         // markers: true,
@@ -54,7 +54,7 @@ const MostPopularCategorys = () => {
         start: "top 50%",
         end: "top 20%",
         toggleActions: "play none none reverse",
-        markers: true,
+        // markers: true,
       },
       ease: "power3.out",
     });
