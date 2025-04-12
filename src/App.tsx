@@ -1,8 +1,8 @@
-import "./App.css";
 import Banner from "./components/home/banner/Banner";
 import Footer from "./components/home/footer/Footer";
 import LearningPlatforms from "./components/home/learningPlatforms/LearningPlatforms";
 import Navbar from "./components/home/navbar/Navbar";
+import CustomCursor from "./components/home/othersAnimation/CustomCursor";
 import LoaderAnimation from "./components/home/othersAnimation/LoaderAnimation";
 import OurAchievement from "./components/home/ourAchievement/OurAchievement";
 import OurBestInstructor from "./components/home/ourServices/bestInstructor/OurBestInstructor";
@@ -15,6 +15,7 @@ function App() {
     <section>
       {/* w-[1920px] */}
       <div className="mx-auto overflow-hidden">
+        <CustomCursor></CustomCursor>
         <div className="">
           <LoaderAnimation></LoaderAnimation>
           <Navbar></Navbar>
