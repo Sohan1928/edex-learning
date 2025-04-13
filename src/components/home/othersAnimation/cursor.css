@@ -1,7 +1,8 @@
 #cursor {
   height: 4vw;
   width: 4vw;
-  background-color: rgb(255, 140, 111);
+  /* background-color: rgb(255, 140, 111); */
+  border: 1.5px solid #ffc278;
   border-radius: 50%;
   position: fixed;
   z-index: 0;
